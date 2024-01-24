@@ -54,6 +54,10 @@ export const theme: ThemeConfig = [
 export const head: HeadConfig = {}
 
 export const header: HeaderConfig = {
+  search: {
+    provider: 'google'
+  },
+  
   nav: [
     {
       text: 'Developer Diaries',

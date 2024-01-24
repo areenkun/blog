@@ -42,7 +42,7 @@
         class="tooltip tooltip-secondary hover:text-secondary"
         data-tip="Areen el-Haq"
         href="https://areen-c.is-a.dev/">
-           · arèén-c ·    
+          ㅤ· arèén-c ·ㅤ   
       </a>
       All rights reserved.
       {#if footerConfig.html}

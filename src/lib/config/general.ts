@@ -51,7 +51,16 @@ export const theme: ThemeConfig = [
   }
 ]
 
-export const head: HeadConfig = {}
+export const head: HeadConfig = {
+    custom: ({ dev }) =>
+    dev
+      ? []
+      : [
+          // Block Baiduspider
+          '<meta name="keywords" content="Areen, areen-c, Areen-kun, areen.cx, areenc, About Areen, Areen el-Haq, js, html, css, website, personal site, blog, jekyll, SvelteKit">'
+        ],
+}
+
 
 export const header: HeaderConfig = {
   search: {

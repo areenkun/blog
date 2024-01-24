@@ -33,10 +33,18 @@
       </a>
         <br />
       {/if}
-      Copyright © {footerConfig.since && footerConfig.since !== new Date().toJSON().substring(0, 4)
+      Copyright © 2019-{footerConfig.since && footerConfig.since !== new Date().toJSON().substring(0, 4)
         ? `${footerConfig.since} - ${new Date().toJSON().substring(0, 4)}`
         : new Date().toJSON().substring(0, 4)}
-      {site.author.name}
+       <a
+        rel="noopener noreferrer external"
+        target="_blank"
+        class="tooltip tooltip-secondary hover:text-secondary"
+        data-tip="Areen el-Haq"
+        href="https://areen-c.is-a.dev/">
+           · arèén-c ·    
+      </a>
+      All rights reserved.
       {#if footerConfig.html}
         <br />
         {@html footerConfig.html}

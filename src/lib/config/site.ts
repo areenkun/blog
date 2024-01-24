@@ -2,7 +2,7 @@ import type { SiteConfig } from '$lib/types/site'
 
 export const site: SiteConfig = {
   protocol: import.meta.env.URARA_SITE_PROTOCOL ?? import.meta.env.DEV ? 'http://' : 'https://',
-  domain: import.meta.env.URARA_SITE_DOMAIN ?? 'areencx.pages.dev',
+  domain: import.meta.env.URARA_SITE_DOMAIN ?? 'blog.areen.is-a.dev',
   title: 'areen-c',
   subtitle: 'Codeforces is love, codeforces is life (•̀ᴗ•́ )و',
   lang: 'en-US',

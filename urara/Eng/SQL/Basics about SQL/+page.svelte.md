@@ -8,19 +8,19 @@ tags: [SQL, Database]
 SQL is a declarative programming language.
 ## Declarative languages
 In declarative languages such as SQL & Prolog:
-* A "program" is a description of the desired result 
+* A "program" is a description of the desired result
 * The interpreter figures out how to generate the result
 * (The computational processes are decided by Database management systems.)
 
 In imperative languages such as Python & Scheme:
-* A "program" is a description of computational processes 
+* A "program" is a description of computational processes
 * The interpreter carries out execution/evaluation rules
 
 ## basics
 In SQL, every statement should be ended with `;`.
 ### select
 A select statement always includes a comma-separated list of column descriptions.
-A column description is an expression, optionally followed by as and a column name
+A column description is an expression, optionally followed by as and a column name,
 ```shell
 sqlite> SELECT * FROM first_tb WHERE city = "new york";
 new york|US
@@ -30,10 +30,10 @@ In practice, `select` statements are compounds of many other keywords that descr
 
 `SELECT [columns] FROM [tables] WHERE [condition] ORDER BY [columns] LIMIT [limit];`
 
-* `SELECT [columns]` tells SQL that we want to include the given columns in our output table; `[columns]` is a comma-separated list of column names, and * can be used to select all columns 
+* `SELECT [columns]` tells SQL that we want to include the given columns in our output table; `[columns]` is a comma-separated list of column names, and * can be used to select all columns
 * `FROM [table]` tells SQL that the columns we want to select are from the given table
-* `WHERE [condition]` filters the output table by only including rows whose values satisfy the given [condition], a boolean expression 
-* `ORDER BY [columns]` orders the rows in the output table by the given comma-separated list of columns, add keyword `DESC` if you want descreasing order 
+* `WHERE [condition]` filters the output table by only including rows whose values satisfy the given [condition], a boolean expression
+* `ORDER BY [columns]` orders the rows in the output table by the given comma-separated list of columns, add keyword `DESC` if you want descreasing order
 * `LIMIT [limit]` limits the number of rows in the output table by the integer `[limit]`
 
 ### create and drop
@@ -48,7 +48,7 @@ CREATE TABLE [table_name] AS
 ```
 
 The result of a `select` statement is displayed to the user, but not stored. A `create table` statement gives the result a name.
-But when you use `union`, the order of the rows in the table might be different from the order of inputting. It's up to the DBMS. 
+But when you use `union`, the order of the rows in the table might be different from the order of inputting. It's up to the DBMS.
 
 
 To delete the all table, use `drop table [table_name]`.
@@ -57,15 +57,15 @@ If you want to insert a new row with all column values, `insert into [table_name
 
 In order to modify specific column values of existing rows in the table, `update [table_name] set [col1 = val1, col2 = val2] where [conditions]`
 
-### Operators
+### Operat0rs
 * comparison operators: =, >, <, <=, >=, <> or != ("not equal")
 * boolean operators: AND, OR 
 * arithmetic operators: +, -, *, / 
 * concatenation operator: ||
 ## Join
 * `(INNER) JOIN`: Returns records that have matching values in both tables
-* `LEFT (OUTER) JOIN`: Returns all records from the left table, and the matched records from the right table 
-* `RIGHT (OUTER) JOIN`: Returns all records from the right table, and the matched records from the left table 
+* `LEFT (OUTER) JOIN`: Returns all records from the left table, and the matched records from the right table
+* `RIGHT (OUTER) JOIN`: Returns all records from the right table, and the matched records from the left table
 * `FULL (OUTER) JOIN`: Returns all records when there is a match in either left or right table
 ### inner join
 To perform an inner join on two on more tables, simply list them all out in the `FROM` clause of a `SELECT` statement.
@@ -95,7 +95,7 @@ The max() aggregate function returns the maximum value of all values in the grou
 `select max(weight) from animals where legs > 2;`
 
 #### sum and total
-The sum() and total() aggregate functions return the sum of all non-NULL values in the group. **If there are no non-NULL input rows then sum() returns NULL but total() returns 0.0.** 
+The sum() and total() aggregate functions return the sum of all non-NULL values in the group. **If there are no non-NULL input rows then sum() returns NULL but total() returns 0.0.**
 
 The result of total() is always a floating point value. The result of sum() is an integer value if all non-NULL inputs are integers. If any input to sum() is neither an integer nor a NULL, then sum() returns a floating point value which is an approximation of the mathematical sum.
 

@@ -3,6 +3,7 @@ title: Git errors and solutions
 created: 2023-12-02
 tags: [Git, 'Tech', 'Eng']
 image: '/assets/banner/git-1.png'
+summary: Record of git errors I met and relevant solutions.
 ---
 
 1. `ssh: connect to host github.com port 22: Connection refused`

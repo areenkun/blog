@@ -3,6 +3,7 @@ title: Basics about Scheme
 created: 2024-01-01
 tags: [Scheme, 'Tech', 'Eng']
 image: '/assets/banner/Scheme.png'
+summary: Scheme is a Dialect of Lisp.
 ---
 
 Scheme is a Dialect of Lisp.

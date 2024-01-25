@@ -2,6 +2,7 @@
 title: All you need to know about CRNN
 created: 2024-01-02
 tags: ['Deep Learning', 'Compter Vision', 'Tech', 'Eng']
+summary: CRNN is an end-to-end image-based sequence recognition model, composed of CNN and RNN layers, handles sequences in arbitrary length, needs no character segmentation and is efficient to deploy in real world.
 ---
 
 # 1. What

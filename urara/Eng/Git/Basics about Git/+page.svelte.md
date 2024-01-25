@@ -3,6 +3,7 @@ title: Basics about Git
 created: 2024-01-31
 tags: [Git, 'Tech', 'Eng']
 image: '/assets/banner/git.jpg'
+summary: Git a distributed version control system as opposed to a centralized version control system. This means that every developer’s computer stores the entire history (including all old versions) of the entire project! This is rather unlike tools like Google Drive or Dropbox, where old versions are stored on a remote server owned by someone else.
 ---
 
 > Git a distributed version control system as opposed to a centralized version control system. This means that every developer’s computer stores the entire history (including all old versions) of the entire project! This is rather **unlike tools like Dropbox, where old versions are stored on a remote server owned by someone else**.

@@ -3,7 +3,9 @@ title: More about Pointers
 created: 2022-12-14
 tags: ['C', 'Eng', 'Tech']
 image: '/assets/banner/c-banner.webp'
+summary: Pointers is an important and difficult part of C programming. If you're new to this concept, you can first read basics about pointers on previous post.
 ---
+
 Pointers is an important and difficult part of C programming. If you're new to this concept, you can first read basics about pointers.
 # Pointers to sophisticated types
 ## Pointers to Structs

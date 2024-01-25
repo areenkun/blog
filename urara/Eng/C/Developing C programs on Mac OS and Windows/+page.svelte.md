@@ -3,7 +3,9 @@ title: Developing C programs on Mac OS and Windows
 created: 2022-12-02
 tags: ['C', 'Eng', 'Tech']
 image: '/assets/banner/c-banner.webp'
+summary: Setup C environment on your device.
 ---
+
 # Mac OS
 ## Editor
 - vim

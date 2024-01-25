@@ -3,6 +3,7 @@ title: Basics about SQL
 created: 2022-12-28
 tags: [SQL, Database]
 image: '/assets/banner/sql.png'
+summary: SQL is a declarative programming language.
 ---
 
 # SQL

@@ -3,6 +3,7 @@ title: Basics about Data Structures
 created: 2022-12-15
 tags: ['C', 'Eng', 'Tech']
 image: '/assets/banner/datastructure.jpg'
+summary: You might have heard many different data stuctures like arrays, linked lists, trees, queues and tries. Actually, they are not that different. Some of them are variations of basic data structures -- Arrays, Linked Lists, Hash Tables and Tries -- that will be mentioned in this session.
 ---
 
 You might have heard many different data stuctures like arrays, linked lists, trees, queues and tries. Actually, they are not that different. Some of them are variations of basic data structures -- Arrays, Linked Lists, Hash Tables and Tries -- that will be mentioned in this article. 

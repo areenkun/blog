@@ -3,6 +3,7 @@ title: Basics about pointers
 created: 2022-12-12
 tags: ['C', 'Eng', 'Tech']
 image: '/assets/banner/pointers.png'
+summary: This session focuses on pointers -- what it is, how to use it, how it works in hardware, pointer and arrays, pointers as function parameters, and file pointers.
 ---
 
 Pointers is an important and difficult part of C programming. This lecture covering nearly all aspects of points is good start to learn, but not deep enough. And the problem sets and lab for this lecture is all about file pointers. Therefore, I recommend Coursera course "Pointers, Arrays and Recursion" by Duke University as supplementary material.

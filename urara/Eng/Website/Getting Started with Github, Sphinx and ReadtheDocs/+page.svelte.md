@@ -2,6 +2,8 @@
 title: Getting Started with Github, Sphinx and ReadtheDocs
 created: 2022-11-27
 tags: [sphinx, personal website, github, readthedocs]
+summary: In this session we'll learn how to build a personal documentation project with Sphinx, Github and ReadtheDocs.
+image: '/assets/banner/git.jpg'
 ---
 
 ### Why

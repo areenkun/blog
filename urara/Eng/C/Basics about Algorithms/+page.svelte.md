@@ -3,6 +3,7 @@ title: Basics about Algorithms
 created: 2022-12-09
 tags: ['C', 'Eng', 'Tech']
 image: '/assets/banner/algorithm.jpg'
+summary: In this session, we'll focus on algorithms that solve problems with arrays.
 ---
 
 ## Big O

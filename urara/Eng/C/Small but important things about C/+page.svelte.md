@@ -3,6 +3,7 @@ title: Small but important things about C
 created: 2022-12-09
 tags: ['C', 'Eng', 'Tech']
 image: '/assets/banner/pointers.png'
+summary: There are so many small but import things about C that we maybe don't know but will bring "disaster" during program.
 ---
 
 # Operator-relevant

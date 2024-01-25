@@ -3,6 +3,7 @@ title: Basics about Array
 created: 2022-12-07
 tags: ['C', 'Eng', 'Tech', 'introduction to Computer Science']
 image: '/assets/banner/array.jpg'
+summary: This session covers compilation process, how to debug, data structure--array, data type string, user-defined functions and command line arguments.
 ---
 ## Compilation process
 There are two method to execute a program, interpretation and compilation. Technically, **every language can be interpreted or compiled**. Some languages are called as compiled languages like C, just because we are used to compile it, of course, you can build an interpreter for it.

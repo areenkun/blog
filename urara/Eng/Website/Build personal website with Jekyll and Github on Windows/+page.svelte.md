@@ -3,6 +3,7 @@ title: Build personal website with Jekyll and Github on Windows
 created: 2022-11-28
 tags: [jekyll, personal website, github, blog, Eng, Tech]
 image: '/assets/banner/jekyll.jpg'
+summary: In this session we'll learn how to build a personal website with Jekyll and Github on Windows.
 ---
 
 # What

@@ -3,6 +3,7 @@ title: Basics about C
 created: 2022-12-05
 tags: ['C', 'Eng', 'Tech']
 image: '/assets/banner/c-banner.webp'
+summary: This session includes all basic knowledge about C -- data types, operators, conditional statements, loops and overflow.
 ---
 
 This lecture includes all basic knowledge about C -- data types, operators, conditional statements, loops and overflow.

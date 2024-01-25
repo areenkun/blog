@@ -24,8 +24,9 @@ Output: 0
  
 
 **Constraints**:
-
+```
 0 <= n <= 5 * 10^6
+```
 
 ### Solutions
 

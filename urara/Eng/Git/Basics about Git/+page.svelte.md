@@ -1,6 +1,6 @@
 ---
 title: Basics about Git
-created: 2023-12-24
+created: 2024-01-31
 tags: [Git, 'Tech', 'Eng']
 image: '/assets/banner/git.jpg'
 ---

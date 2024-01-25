@@ -2,7 +2,7 @@
 title: Interpreters
 created: 2024-01-27
 tags: [Python, Scheme, interpreters, Eng, Tech]
-image: '/assets/banner/interpreters.webp'
+image: '/assets/banner/Interpreters.webp'
 ---
 
 # Create a programming language

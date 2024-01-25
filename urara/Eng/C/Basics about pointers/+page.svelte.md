@@ -135,18 +135,17 @@ Therefore, NULL is very useful instead of wasting bytes in memory.
 
 ## Pointers and Arrays
 An array's name is actually a pointer to its first element. The difference between array and a normal pointer is that an array `x` which is declared by `int x[]` actually is a constant pointer `int *const x`, so the array name `x` can not be assigned by another array.
-
 ```
-Notice, if you declare `char *s = "Hello;"`, `"Hello"` is in code portion of memory, and it's read-only; `s` is in stack portion of memory. It's actually `char* const s`  even if `const` can be omitted.
+Notice, if you declare `char *s = "Hello;"`, `"Hello"` is in code portion of memory, 
+and it's read-only; `s` is in stack portion of memory. It's actually `char* const s` 
+even if `const` can be omitted.
 ```
 
 ### Size of string
-String is actually `char*` type, it's defined as 
 ```
-typedef char* string
+String is actually `char*` type, it's defined as typedef char* string in <CS50.h>.
+So the size of string variable is 4 bytes in 32-bit machine and 8 bytes in 64-bit machine.
 ```
-in <CS50.h>. So the size of string variable is 4 bytes in 32-bit machine and 8 bytes in 64-bit machine.
-
 ## Dynamic memory allocation
 If we don't know the precise value of address pointed by the pointer or the exact size of that space pointed to when we declare the pointer, then we can use pointers to get access to a block of dynamically-allocated memory at runtime.
 

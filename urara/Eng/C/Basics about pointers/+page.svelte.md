@@ -140,11 +140,12 @@ Notice, if you declare--
 ```
 `char *s = "Hello;"`, `"Hello"` 
 ```
+
 --is in code portion of memory, and it's read-only; `s` is in stack portion of memory. It's actually--
+
 ```
-char* const s
+char* const s // even if `const` can be omitted.
 ```
-even if `const` can be omitted
 
 ### Size of string
 String is actually `char*` type, it's defined as 

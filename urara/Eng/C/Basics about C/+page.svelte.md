@@ -139,15 +139,21 @@ If `x = 3`, it doesn't satisfy `case 1` and `case 2`, so it will go to the botto
     }
 ```
 ## Loops
-- while(expr)
-    
-    use when you want a loop to repeat an unknown number of times, and possibly not at all
-- do{}while(expr)
+```
+while(expr)
+```
+use when you want a loop to repeat an unknown number of times, and possibly not at all
 
-    use when you want a loop to repeat an unknown number of times, but at least once
-- for(int i = 0; i < 10; i++)
+```
+do{}while(expr)
+```
+use when you want a loop to repeat an unknown number of times, but at least once
 
-    use when you want a loop to repeat a discrete number of times
+```
+for(int i = 0; i < 10; i++)
+```
+use when you want a loop to repeat a discrete number of times
+
 ## Comments
 - `//` is for single-line comments
 - `/* */` is for multi-line comments

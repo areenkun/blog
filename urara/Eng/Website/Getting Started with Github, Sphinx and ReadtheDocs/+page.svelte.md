@@ -1,4 +1,4 @@
---- 
+---
 title: Getting Started with Github, Sphinx and ReadtheDocs
 created: 2022-11-27
 tags: [sphinx, personal website, github, readthedocs]

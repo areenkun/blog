@@ -108,10 +108,11 @@ Two main types of Boolean expressions: logical operators and relational operator
 ## Conditional Statements
 ### if else
 `if(1<n<10)` doesn't mean the situation where n is more than 1 and less than 10. This operation will be calculated as:
+```
 1. `(1<n)<10`(assume n = 5);
 2. `1<10`(because n is truly more than 1, so the result of `1<n` is 1);
 3. `1`(because 1 is truly less than 10, so the result of `1<10` is 1).
-
+```
 If you want to express "1<n<10" in C, use `1<n && n < 10` instead.
 
 There is a cute trick of "if else" conditional statements: ternary operator. For example, `int x = (expr)?5:6`, it means if the expression is true, then `x = 5` else `x = 6`.

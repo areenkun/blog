@@ -136,15 +136,8 @@ Therefore, NULL is very useful instead of wasting bytes in memory.
 ## Pointers and Arrays
 An array's name is actually a pointer to its first element. The difference between array and a normal pointer is that an array `x` which is declared by `int x[]` actually is a constant pointer `int *const x`, so the array name `x` can not be assigned by another array.
 
-Notice, if you declare--
 ```
-`char *s = "Hello;"`, `"Hello"` 
-```
-
---is in code portion of memory, and it's read-only; `s` is in stack portion of memory. It's actually--
-
-```
-char* const s // even if `const` can be omitted.
+Notice, if you declare `char *s = "Hello;"`, `"Hello"` is in code portion of memory, and it's read-only; `s` is in stack portion of memory. It's actually `char* const s`  even if `const` can be omitted.
 ```
 
 ### Size of string

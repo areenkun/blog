@@ -144,10 +144,14 @@ Notice, if you declare--
 ```
 char* const s
 ```
-even if `const`can be omitted.
+even if `const` can be omitted
 
 ### Size of string
-String is actually `char*` type, it's defined as ```typedef char* string``` in <CS50.h>. So the size of string variable is 4 bytes in 32-bit machine and 8 bytes in 64-bit machine.
+String is actually `char*` type, it's defined as 
+```
+typedef char* string
+```
+in <CS50.h>. So the size of string variable is 4 bytes in 32-bit machine and 8 bytes in 64-bit machine.
 
 ## Dynamic memory allocation
 If we don't know the precise value of address pointed by the pointer or the exact size of that space pointed to when we declare the pointer, then we can use pointers to get access to a block of dynamically-allocated memory at runtime.

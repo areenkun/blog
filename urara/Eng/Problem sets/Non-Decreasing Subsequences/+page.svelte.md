@@ -5,7 +5,8 @@ tags: [Python, problem sets, 'Eng', 'Tech']
 ---
 
 # Non-Decreasing Subsequences
-We want to write a function that takes a list and returns a list of lists, where each individual list is a subsequence of the original input. And there is a condition: we only want the subsequences for which consecutive elements are nondecreasing. For example, [1, 3, 2] is a subsequence of [1, 3, 2, 4], but since 2 < 3, this subsequence would not be included in our result.
+We want to write a function that takes a list and returns a list of lists, where each individual list is a subsequence of the original input.
+And there is a condition: we only want the subsequences for which consecutive elements are nondecreasing. For example, [1, 3, 2] is a subsequence of [1, 3, 2, 4], but since `2 < 3`, this subsequence would not be included in our result.
 
 You may assume that the list passed in as s contains only nonnegative elements.
 

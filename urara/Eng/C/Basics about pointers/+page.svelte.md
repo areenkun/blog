@@ -140,7 +140,11 @@ Notice, if you declare--
 ```
 `char *s = "Hello;"`, `"Hello"` 
 ```
---is in code portion of memory, and it's read-only; `s` is in stack portion of memory. It's actually `char* const s` even if `const` can be omitted.
+--is in code portion of memory, and it's read-only; `s` is in stack portion of memory. It's actually--
+```
+char* const s
+```
+--even if `const` can be omitted.
 
 ### Size of string
 String is actually `char*` type, it's defined as `typedef char* string` in <CS50.h>. So the size of string variable is 4 bytes in 32-bit machine and 8 bytes in 64-bit machine.

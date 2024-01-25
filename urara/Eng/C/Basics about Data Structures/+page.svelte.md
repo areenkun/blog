@@ -307,5 +307,5 @@ typedef struct node
 ```
 ## References
 1. [CS50X courses](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/block-v1:HarvardX+CS50+X+type@sequential+block@01f55e1d753946868dd97799db5e2649/block-v1:HarvardX+CS50+X+type@vertical+block@3e4b406fbf5e473f9fa2ef433319ce9f)
-2. [Singly-linked lists VS Douly-linked lists](**https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/**)
+2. [Singly-linked lists VS Douly-linked lists](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
 3. [Hash functions](https://www.geeksforgeeks.org/hash-functions-and-list-types-of-hash-functions/)

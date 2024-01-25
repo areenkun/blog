@@ -57,11 +57,6 @@ If you want to insert a new row with all column values, `insert into [table_name
 
 In order to modify specific column values of existing rows in the table, `update [table_name] set [col1 = val1, col2 = val2] where [conditions]`
 
-### Operat0rs
-* comparison operators: =, >, <, <=, >=, <> or != ("not equal")
-* boolean operators: AND, OR 
-* arithmetic operators: +, -, *, / 
-* concatenation operator: ||
 ## Join
 * `(INNER) JOIN`: Returns records that have matching values in both tables
 * `LEFT (OUTER) JOIN`: Returns all records from the left table, and the matched records from the right table

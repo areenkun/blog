@@ -93,13 +93,14 @@ Two main types of Boolean expressions: logical operators and relational operator
 - OR(||)
 - NOT(!)
 #### Relational operators
+```
 - less than (x < y)
 - less than or equal to (x <= y)
 - greater than (x > y)
 - greater than or equal to (x >= y)
 - equality (x == y)
 - inequality(x != y)
-
+```
 ### [C Operator Precedence and Associativity](http://www.eecs.northwestern.edu/~wkliao/op-prec.htm)
 
 ![image](/assets/images/computer%20science/operator_precedence_associativity.png) ^[Figure from <a href="https://www.coursera.org/learn/programming-fundamentals/supplement/9LmqH/structs">Coursera course</a> by Duke University]

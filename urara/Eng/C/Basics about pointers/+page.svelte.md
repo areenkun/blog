@@ -144,7 +144,11 @@ Notice, if you declare--
 ```
 char* const s
 ```
---even if `const` can be omitted.
+even if 
+```
+const
+```
+can be omitted.
 
 ### Size of string
 String is actually `char*` type, it's defined as `typedef char* string` in <CS50.h>. So the size of string variable is 4 bytes in 32-bit machine and 8 bytes in 64-bit machine.

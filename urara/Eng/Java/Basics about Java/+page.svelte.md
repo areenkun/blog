@@ -150,6 +150,8 @@ s1.insertFront(10);
 SLList<String> s2 = new SLList<>("hi");
 s2.insertFront("apple");
 ```
+
+```shell
 * In the .java file implementing your data structure, specify your “generic type” only once at the very top of the file.
 * In .java files that use your data structure, specify desired type once:
   * Write out desired type during declaration.
@@ -160,6 +162,8 @@ s2.insertFront("apple");
   * char: Character 
   * boolean: Boolean 
   * long: Long
+```
+ 
 ```java
 DLList<Double> s1 = new DLList<>(5.3);
 

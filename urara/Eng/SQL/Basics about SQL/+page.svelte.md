@@ -56,6 +56,13 @@ To delete the all table, use `drop table [table_name]`.
 If you want to insert a new row with all column values, `insert into [table_name] values (col1_val, col2_val, ...);`. If you just want to insert a row with specific columns, `insert into [table_name] (col1, col5) values (col1_val, col5_val);`, the column values that are not assigned for the added row will be `null`.
 
 In order to modify specific column values of existing rows in the table, `update [table_name] set [col1 = val1, col2 = val2] where [conditions]`
+### Operators
+```shell
+* comparison operators: =, >, <, <=, >=, <> or != ("not equal")
+* boolean operators: AND, OR 
+* arithmetic operators: +, -, *, / 
+* concatenation operator: ||
+```
 
 ## Join
 * `(INNER) JOIN`: Returns records that have matching values in both tables

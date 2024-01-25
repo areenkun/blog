@@ -211,7 +211,7 @@ Equal to the type of the object being pointed at.
 
 * If **overridden**, decide which method to call based on run-time type(dynamic type) of variable.
 * Compiler allows **method calls** based on compile-time type(static type) of variable. Compiler also allows **assignments** based on compile-time types(static type).
-![image](/assets/images/computer%20science/dynamic_type——1.png) ^[Figure from <a href="https://docs.google.com/presentation/d/1zsr4-MHM5STYr_b0l-lZ8ABqAPzyIU3P31qWKP2M3m4/edit#slide=id.g10a4194b67_0_462">CS61B</a>]
+![image](/assets/images/computer%20science/dynamic_type_1.png) ^[Figure from <a href="https://docs.google.com/presentation/d/1zsr4-MHM5STYr_b0l-lZ8ABqAPzyIU3P31qWKP2M3m4/edit#slide=id.g10a4194b67_0_462">CS61B</a>]
 
 
 #### Casting

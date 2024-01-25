@@ -24,7 +24,7 @@ What does the `n` represent? For example, when analyzing the Big-O performance o
 ### Linear search
 Iterate across the array from left to right, searching for a specified element.
 
-Time complexity: $O(n)$. Because in the worst scenario, the target element we want is at the last position in the arrat.
+Time complexity: `$O(n)$`. Because in the worst scenario, the target element we want is at the last position in the arrat.
 
 ### Binary search
 Binary search is a divide-and-conquer algorithm **for sorted arrays**, which means it reduces the search area by half each time, trying to find a target element.
@@ -44,7 +44,11 @@ Else if the target element > array[middle]
 The time complexity is $O(logn)$. Because in the worst scenario, you have to divide and check the array many times until there is no more element left in the array.
 
 ## struct
-If we want to create a dictionary like {2:"apple", 5: "banana"} or {"apple":2,"banana":5} to bind the names of fruit and their prices together, in Python we can just use the data structure `dict`, but in C we can use `struct` to create data type like `dict` by ourselves.
+If we want to create a dictionary like--
+```
+{2:"apple", 5: "banana"} or {"apple":2,"banana":5}
+```
+--to bind the names of fruit and their prices together, in Python we can just use the data structure `dict`, but in C we can use `struct` to create data type like `dict` by ourselves.
 
 There are many ways to declare, define and use structs. The figure below shows four options, you can use any of them during programming.
 

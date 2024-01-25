@@ -1,6 +1,6 @@
 ---
 title: Small things about Python
-created: 2022-12-25
+created: 2024-01-25
 tags: [python, Eng, Tech]
 image: '/assets/banner/python-2.png'
 ---

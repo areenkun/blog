@@ -2,6 +2,7 @@
 title: Small but important things about C
 created: 2022-12-09
 tags: ['C', 'Eng', 'Tech']
+image: '/assets/banner/pointers.png'
 ---
 
 # Operator-relevant

@@ -70,7 +70,12 @@ We can also see code below, it seems like not any way in the four options, but i
 ```
 Now we put all related data about fruit together, in computer science this process is called **encapsulation**, which can encapsulate several pieces of information into the same data structure
 
-You can also just use two arrays like array_a = {2, 5} and array_b = {"apple", "banana"} to describe the same thing, when you want to buy banana which is at index 1 in array_b, just check array_a[1] for its price. However, it's not efficient from the point of cache. If the memory cell of banana's price is just near the one of banana, it will take use 1 step to get the value. But if you store fruit names and fruit prices in two arrays, given that array means continuous memory space, banana and banana's price cannot be put together, which leads to inefficiency.
+You can also just use two arrays like--
+```
+array_a = {2, 5} and array_b = {"apple", "banana"} 
+```
+--to describe the same thing, when you want to buy banana which is at index 1 in array_b, just check array_a[1] for its price. However, it's not efficient from the point of cache. If the memory cell of banana's price is just near the one of banana, it will take use 1 step to get the value. But if you store fruit names and fruit prices in two arrays, given that array means continuous memory space, banana and banana's price cannot be put together, which leads to inefficiency.
+
 ## Recursion
 The recursion function is the one that, as part of its execution, invokes itself.
 

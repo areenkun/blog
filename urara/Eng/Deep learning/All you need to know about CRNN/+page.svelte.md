@@ -68,7 +68,7 @@ Therefore, CTC removes repeating characters in output sequences. So '-hi-' and '
 
 But how about words with repeating characters like 'better'? CTC requires to add blank character '-' between them. So '-b-ee-ttt-t-e-r-' and '-bb-e-t-t-e-r-' both represent 'better', but '-b-e-tt-e-r-' don't. 
 #### Loss function
-Denote the training dataset by $$X = \{ I_i, l_i \}$$, where $I_i$ is the training image and $l_i$ is the ground truth label sequence; $y_i$ is per-frame predictions.
+Denote the training dataset by ``` $$X = \{ I_i, l_i \}$$, where $I_i$ ``` is the training image and $l_i$ is the ground truth label sequence; $y_i$ is per-frame predictions.
 The objective is to minimize the negative log-likelihood of conditional probability of ground truth:
 ```
 $$ \begin{aligned} Loss = -\sum_{I_i, l_i \in X} log p(l_i | y_i) \end{aligned}$$
